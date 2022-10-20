@@ -15,7 +15,10 @@ gem 'pg', '~> 1.1'
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
 
-# User cancancan for authorization
+# User devise for authentication
+gem 'devise'
+
+# Use cancancan for authorization
 gem 'cancancan'
 
 # Add rubocop for linters checking
@@ -62,6 +65,7 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem 'web-console'
+  gem 'bullet'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
