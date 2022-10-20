@@ -1,24 +1,46 @@
-# README
+# Tesla booking
+<PROJECT DESCRIPTION>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## :hammer_and_wrench: Built With: 
+- Ruby on Rails
+- React & Redux
+- SCSS 
+- SQL
 
-Things you may want to cover:
+## ER Diagram:
+![image](https://user-images.githubusercontent.com/42799579/197014249-17759fbf-7a6d-4fca-9db4-26180e78b5bc.png)
+  
+## Project front-end
+[Front-end](https://github.com/Draxeytina/Front-end_Tesla-Booking)
 
-* Ruby version
+## Getting Started 
+- To get a local copy of this project clone this repository or download the Zip folder: 
+git clone https://github.com/Draxeytina/Back-end_Tesla-Booking.git 
 
-* System dependencies
+- To get started, In the root directory run: 
+gem install bundler 
 
-* Configuration
+- Then run: 
+bundle install 
 
-* Database creation
+- Run ruby server in the Command Line: 
+rails s  
 
-* Database initialization
+- Open the server page on your browser: 
+Localhost:3000 
 
-* How to run the test suite
+### Usage 
+To edit this project:
+- Open the repository you cloned with a code editor that you like. 
+- Edit the code as you want. 
 
-* Services (job queues, cache servers, search engines, etc.)
+## :busts_in_silhouette: Authors: 
+👤 **Gabriel Fonseca** 
+- GitHub: [![GitHub Badge](https://img.shields.io/badge/-Gopxfs-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Gopxfs) 
+- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-GabrielFonseca-white?logo=LinkedIn&logoColor=1DA1F2&style=plastic)](https://www.linkedin.com/in/gabriel-fonseca-sales/)  
 
-* Deployment instructions
+## :star2: Show your support 
+Give a :star: if you like my project! 
 
-* ...
+## :pencil: License
+This project is [MIT](https://github.com/Gopxfs/Back-end_Tesla-Booking/blob/main/LICENSE) licensed. 
