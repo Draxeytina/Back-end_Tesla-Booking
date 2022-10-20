@@ -15,6 +15,9 @@ gem 'pg', '~> 1.1'
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
 
+# User cancancan for authorization
+gem 'cancancan'
+
 # Add rubocop for linters checking
 gem 'rubocop', '>= 1.0', '< 2.0'
 
