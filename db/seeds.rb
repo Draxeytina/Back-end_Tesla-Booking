@@ -5,3 +5,59 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+puts 'Creating seeds...'
+
+puts 'Creating administrator...'
+User.create(name: 'Administrator', email: 'admin@admin.com', password: '123qwe321ewq', admin: true);
+
+puts 'Creating cars...'
+# https://www.tesla.com/models
+Car.create(
+  model: 'S Plaid',
+  color: 'red',
+  image:'https://i.imgur.com/qyRk90Z.jpg',
+  range: 396,
+  motor_type: 'AWD Tri-Motor',
+  acceleration_time: 1.99,
+  booking_price: 400.00,
+  booking_duration: 12
+);
+
+# https://www.tesla.com/model3
+Car.create(
+  model: '3',
+  color: 'silver',
+  image:'https://i.imgur.com/Dq2fSbc.jpg',
+  range: 358,
+  motor_type: 'AWD Dual-Motor',
+  acceleration_time: 3.1,
+  booking_price: 275.00,
+  booking_duration: 24
+);
+
+# https://www.tesla.com/modely
+Car.create(
+  model: 'Y',
+  color: 'black',
+  image:'https://i.imgur.com/eEyxT1s.png',
+  range: 330,
+  motor_type: 'AWD Tri-Motor',
+  acceleration_time: 3.5,
+  booking_price: 225.00,
+  booking_duration: 48
+);
+
+# https://www.tesla.com/modelx
+Car.create(
+  model: 'X Plaid',
+  color: 'white',
+  image:'https://i.imgur.com/I0gX4tl.png',
+  range: 333,
+  motor_type: 'AWD Tri-Motor',
+  acceleration_time: 2.5,
+  booking_price: 320.00,
+  booking_duration: 24
+);
+
+puts 'Seeding done.'
