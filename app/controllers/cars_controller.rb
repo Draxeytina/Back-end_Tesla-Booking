@@ -37,7 +37,7 @@ class CarsController < ApplicationController
     @car = Car.find(params[:id])
     @car.destroy
 
-    render json: { status: 200, message: "Car deleted successfully" }
+    render json: { status: 200, message: 'Car deleted successfully' }
   end
 
   private
