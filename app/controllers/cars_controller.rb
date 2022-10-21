@@ -33,6 +33,13 @@ class CarsController < ApplicationController
     end
   end
 
+  def destroy
+    @car = Car.find(params[:id])
+    @car.destroy
+
+    render json: { status: 200, message: "Car deleted successfully" }
+  end
+
   private
 
   def car_params
