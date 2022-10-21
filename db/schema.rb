@@ -21,7 +21,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_20_180213) do
     t.integer "range"
     t.string "motor_type"
     t.decimal "acceleration_time"
-    t.decimal "booking_price"
+    t.decimal "booking_price", precision: 22, scale: 2
     t.integer "booking_duration"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -39,6 +39,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_20_180213) do
 
   create_table "users", force: :cascade do |t|
     t.string "name", default: "New user"
+    t.boolean "admin", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "email", default: "", null: false
