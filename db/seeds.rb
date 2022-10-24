@@ -16,7 +16,7 @@ puts 'Creating cars...'
 Car.create(
   model: 'S Plaid',
   color: 'red',
-  image:'https://i.imgur.com/qyRk90Z.jpg',
+  image:'https://i.imgur.com/nQs2mt6.png',
   range: 396,
   motor_type: 'AWD Tri-Motor',
   acceleration_time: 1.99,
@@ -27,8 +27,8 @@ Car.create(
 # https://www.tesla.com/model3
 Car.create(
   model: '3',
-  color: 'silver',
-  image:'https://i.imgur.com/Dq2fSbc.jpg',
+  color: 'white',
+  image:'https://i.imgur.com/H5ziIET.png',
   range: 358,
   motor_type: 'AWD Dual-Motor',
   acceleration_time: 3.1,
@@ -51,8 +51,8 @@ Car.create(
 # https://www.tesla.com/modelx
 Car.create(
   model: 'X Plaid',
-  color: 'white',
-  image:'https://i.imgur.com/I0gX4tl.png',
+  color: 'blue',
+  image:'https://i.imgur.com/Vh6KaLF.png',
   range: 333,
   motor_type: 'AWD Tri-Motor',
   acceleration_time: 2.5,
