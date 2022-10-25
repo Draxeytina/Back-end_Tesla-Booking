@@ -4,6 +4,7 @@ class CreateCars < ActiveRecord::Migration[7.0]
       t.string :model
       t.string :color
       t.string :image
+      t.string :description
       t.integer :range
       t.string :motor_type
       t.decimal :acceleration_time
