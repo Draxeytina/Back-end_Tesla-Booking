@@ -18,6 +18,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_20_180213) do
     t.string "model"
     t.string "color"
     t.string "image"
+    t.string "description"
     t.integer "range"
     t.string "motor_type"
     t.decimal "acceleration_time"
