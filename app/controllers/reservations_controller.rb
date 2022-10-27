@@ -1,4 +1,15 @@
 class ReservationsController < ApplicationController
+  def index
+    @reservations = Reservation.all
+
+    response.set_header('Access-Control-Allow-Origin', '*')
+
+    respond_to do |format|
+      format.html { render json: @reservations }
+      format.json { render json: @reservations }
+    end
+  end
+
   def create
     @reservation = Reservation.new(reservation_params)
 
