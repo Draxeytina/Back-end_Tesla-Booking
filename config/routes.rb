@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :cars
 
   get 'users/:id/reserved_cars', :to => 'users#reserved_cars'
+  get 'reservations', :to => 'reservations#index'
   post 'cars/create', :to => 'cars#create'
   post 'reservations/create', :to => 'reservations#create'
   delete 'cars/:id', :to => 'cars#destroy'
