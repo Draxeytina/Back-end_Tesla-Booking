@@ -3,7 +3,7 @@ class User < ApplicationRecord
 
   validates_presence_of :email
   validates_uniqueness_of :email
-  
+
   def reserved_cars
     user.cars
   end
