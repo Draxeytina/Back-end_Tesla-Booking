@@ -19,7 +19,7 @@ gem 'puma', '~> 5.0'
 gem 'rack-cors'
 
 # User devise for authentication
-gem 'devise'
+# gem 'devise'
 
 # Use cancancan for authorization
 gem 'cancancan'
