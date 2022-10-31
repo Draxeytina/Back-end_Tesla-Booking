@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  devise_for :users
   resources :users
   resources :cars
 
@@ -10,4 +9,9 @@ Rails.application.routes.draw do
   delete 'cars/:id', :to => 'cars#destroy'
 
   root to: 'users#index'
+  # login system routes
+  resources :sessions, only: [:create]
+  resources :registrations, only: [:create]
+  delete :logout, to: 'sessions#logout'
+  get :logged_in, to: 'sessions#logged_in'
 end
