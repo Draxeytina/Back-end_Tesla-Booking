@@ -45,6 +45,12 @@ To edit this project:
 - GitHub: [@githubhandle](https://github.com/waqaskanju)
 - Twitter: [@twitterhandle](https://twitter.com/waqaskanju)
 - LinkedIn: [@LinkedIn](https://linkedin.com/in/waqaskanju)
+  
+👤 **Francisco Borja**
+
+- GitHub: [@franclobo](https://github.com/franclobo)
+- Twitter: [@pancho2788](https://twitter.com/Pancho2788)
+- LinkedIn: [Francisco Borja](https://www.linkedin.com/in/francisco-borja-lobato/)
 
 ## :star2: Show your support 
 Give a :star: if you like my project! 
