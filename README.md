@@ -52,6 +52,13 @@ To edit this project:
 - Twitter: [@pancho2788](https://twitter.com/Pancho2788)
 - LinkedIn: [Francisco Borja](https://www.linkedin.com/in/francisco-borja-lobato/)
 
+👤 **Tinashe Timothy Murambinda**
+
+- <a href="https://github.com/Draxeytina/">Github</a>
+- <a href="https://twitter.com/tinamura2">Twitter</a>
+- <a href="https://www.linkedin.com/in/timothy-tinashe-murambinda/">LinkedIn</a>
+
+
 ## :star2: Show your support 
 Give a :star: if you like my project! 
 
