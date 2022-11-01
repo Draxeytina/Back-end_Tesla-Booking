@@ -37,26 +37,15 @@ To edit this project:
 ## :busts_in_silhouette: Authors: 
 👤 **Gabriel Fonseca** 
 - GitHub: [![GitHub Badge](https://img.shields.io/badge/-Gopxfs-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Gopxfs) 
-- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-GabrielFonseca-white?logo=LinkedIn&logoColor=1DA1F2&style=plastic)](https://www.linkedin.com/in/gabriel-fonseca-sales/)  
+- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-GabrielFonseca-white?logo=LinkedIn&logoColor=1DA1F2&style=plastic)](https://www.linkedin.com/in/gabriel-fonseca-sales/)
 
-
-👤 **Waqas Ahmad**
-
-- GitHub: [@githubhandle](https://github.com/waqaskanju)
-- Twitter: [@twitterhandle](https://twitter.com/waqaskanju)
-- LinkedIn: [@LinkedIn](https://linkedin.com/in/waqaskanju)
-  
 👤 **Francisco Borja**
 
-- GitHub: [@franclobo](https://github.com/franclobo)
-- Twitter: [@pancho2788](https://twitter.com/Pancho2788)
-- LinkedIn: [Francisco Borja](https://www.linkedin.com/in/francisco-borja-lobato/)
+- GitHub: [![GitHub Badge](https://img.shields.io/badge/-franclobo-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/franclobo)
 
-👤 **Tinashe Timothy Murambinda**
+- Twitter: [![Twitter Badge](https://img.shields.io/badge/-Pancho2788-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/Pancho2788)
 
-- <a href="https://github.com/Draxeytina/">Github</a>
-- <a href="https://twitter.com/tinamura2">Twitter</a>
-- <a href="https://www.linkedin.com/in/timothy-tinashe-murambinda/">LinkedIn</a>
+- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-FranciscoBorja-white?logo=LinkedIn&logoColor=1DA1F2&style=plastic)](https://www.linkedin.com/in/francisco-borja-lobato/)
 
 👤 **Fabien**
 
@@ -66,6 +55,17 @@ To edit this project:
 
 - LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-FabienBrathwaite-white?logo=LinkedIn&logoColor=1DA1F2&style=plastic)](https://www.linkedin.com/in/fabien-brathwaite/)
 
+👤 **Tinashe Timothy Murambinda**
+
+- GitHub: [![GitHub Badge](https://img.shields.io/badge/-Draxeytina-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Draxeytina/)
+- Twitter: [![Twitter Badge](https://img.shields.io/badge/-tinamura2-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/tinamura2")
+- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-TinasheMurambinda-white?logo=LinkedIn&logoColor=1DA1F2&style=plastic)](https://www.linkedin.com/in/timothy-tinashe-murambinda/")
+
+👤 **Waqas Ahmad**
+
+- GitHub: [![GitHub Badge](https://img.shields.io/badge/-waqaskanju-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/waqaskanju)
+- Twitter: [![Twitter Badge](https://img.shields.io/badge/-waqaskanju1-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/waqaskanju)
+- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-WaqasKanju-white?logo=LinkedIn&logoColor=1DA1F2&style=plastic)](https://linkedin.com/in/waqaskanju)
 
 ## :star2: Show your support 
 Give a :star: if you like my project! 
