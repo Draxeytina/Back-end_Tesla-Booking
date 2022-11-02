@@ -11,8 +11,9 @@ This repo is the backend part of a car booking app called Tesla booking. One can
 ![image](https://user-images.githubusercontent.com/42799579/197014249-17759fbf-7a6d-4fca-9db4-26180e78b5bc.png)
 
 ## Kanban Board
-![Initial Kanban Board](https://user-images.githubusercontent.com/42799579/196807680-4828e314-9168-45b8-81d2-aa554a273a4c.png)
+[Link to project's Kanban Board](https://github.com/users/Draxeytina/projects/4)
 
+![Initial Kanban Board](https://user-images.githubusercontent.com/42799579/196807680-4828e314-9168-45b8-81d2-aa554a273a4c.png)
 
 ### Team Members
 
