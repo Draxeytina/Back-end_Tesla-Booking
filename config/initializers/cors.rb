@@ -1,7 +1,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://deploy-preview-39--deft-cat-7c3d23.netlify.app'
+    origins 'https://velvety-marigold-7d3a2f.netlify.app/'
     resource '*',
              headers: :any,
              methods: %i[get post put patch delete options head],
