@@ -31,7 +31,13 @@ Localhost:3000
 
 ### Usage 
 To edit this project:
-- Open the repository you cloned with a code editor that you like. 
+- Open the repository you cloned with a code editor that you like.
+- Run the following commands:
+```Ruby
+rails db:create
+rails db:migrate
+rails db:seed
+```
 - Edit the code as you want. 
 
 ## :busts_in_silhouette: Authors: 
