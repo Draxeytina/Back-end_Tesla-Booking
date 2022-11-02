@@ -1,11 +1,11 @@
 # Tesla booking
-<PROJECT DESCRIPTION>
+This repo is the backend part of a car booking app called Tesla booking. One can book a car and show its deatail using this app.
 
 ## :hammer_and_wrench: Built With: 
 - Ruby on Rails
 - React & Redux
 - SCSS 
-- SQL
+- Postgresql
 
 ## ER Diagram:
 ![image](https://user-images.githubusercontent.com/42799579/197014249-17759fbf-7a6d-4fca-9db4-26180e78b5bc.png)
