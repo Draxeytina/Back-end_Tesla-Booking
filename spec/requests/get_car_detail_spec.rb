@@ -8,46 +8,47 @@ RSpec.describe 'Car details', type: :request do
     end
 
     it 'should display only one car information' do
-      expect(@body).not_to include("\"id\":2")
-      expect(@body).not_to include("\"id\":3")
-      expect(@body).not_to include("\"id\":4")
+      expect(@body).not_to include('"id":2')
+      expect(@body).not_to include('"id":3')
+      expect(@body).not_to include('"id":4')
     end
 
     describe 'car properties' do
       it 'should display the car model' do
-        expect(@body).to include("\"model\":\"S Plaid")
+        expect(@body).to include('"model":"S Plaid')
       end
 
       it 'should display the car color' do
-        expect(@body).to include("\"color\":\"red")
+        expect(@body).to include('"color":"red')
       end
 
       it 'should display the car image' do
-        expect(@body).to include("\"image\":\"https://i.imgur.com/nQs2mt6.png")
+        expect(@body).to include('"image":"https://i.imgur.com/nQs2mt6.png')
       end
 
       it 'should display the car description' do
-        expect(@body).to include("\"description\":\"Model S Plaid has the quickest acceleration of any vehicle in production.")
+        expect(@body).to include(
+          '"description":"Model S Plaid has the quickest acceleration of any vehicle in production.')
       end
 
       it 'should display the car range' do
-        expect(@body).to include("\"range\":396")
+        expect(@body).to include('"range":396')
       end
 
       it 'should display the car motor_type' do
-        expect(@body).to include("\"motor_type\":\"AWD Tri-Motor")
+        expect(@body).to include('"motor_type":"AWD Tri-Motor')
       end
 
       it 'should display the car acceleration_time' do
-        expect(@body).to include("\"acceleration_time\":\"1.99")
+        expect(@body).to include('"acceleration_time":"1.99')
       end
 
       it 'should display the car booking_price' do
-        expect(@body).to include("\"booking_price\":\"400.0")
+        expect(@body).to include('"booking_price":"400.0')
       end
 
       it 'should display the car booking_duration' do
-        expect(@body).to include("\"booking_duration\":12")
+        expect(@body).to include('"booking_duration":12')
       end
     end
   end
