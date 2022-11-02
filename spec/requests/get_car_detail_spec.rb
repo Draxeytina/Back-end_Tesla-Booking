@@ -28,7 +28,8 @@ RSpec.describe 'Car details', type: :request do
 
       it 'should display the car description' do
         expect(@body).to include(
-          '"description":"Model S Plaid has the quickest acceleration of any vehicle in production.')
+          '"description":"Model S Plaid has the quickest acceleration of any vehicle in production.'
+        )
       end
 
       it 'should display the car range' do
