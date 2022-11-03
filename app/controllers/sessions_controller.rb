@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
   include CurrentUserConcern
-  def create    
+  def create
     response.set_header('Access-Control-Allow-Origin', '*')
 
     user = User
@@ -18,7 +18,7 @@ class SessionsController < ApplicationController
     end
   end
 
-  def logged_in    
+  def logged_in
     response.set_header('Access-Control-Allow-Origin', '*')
 
     if @current_user
@@ -33,7 +33,7 @@ class SessionsController < ApplicationController
     end
   end
 
-  def logout    
+  def logout
     response.set_header('Access-Control-Allow-Origin', '*')
 
     reset_session

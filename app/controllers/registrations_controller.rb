@@ -1,6 +1,5 @@
 class RegistrationsController < ApplicationController
   def create
-    
     response.set_header('Access-Control-Allow-Origin', '*')
 
     user = User.create!(

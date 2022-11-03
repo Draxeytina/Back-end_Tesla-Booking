@@ -37,7 +37,7 @@ class CarsController < ApplicationController
 
   def destroy
     response.set_header('Access-Control-Allow-Origin', '*')
-    
+
     @car = Car.find(params[:id])
     @car.destroy
 
