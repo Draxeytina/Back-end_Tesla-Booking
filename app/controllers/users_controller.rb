@@ -9,7 +9,7 @@ class UsersController < ApplicationController
 
   def reserved_cars
     @cars = current_user.reserved_cars
-    
+
     respond_to do |format|
       format.html { render json: @cars }
       format.json { render json: @cars }
