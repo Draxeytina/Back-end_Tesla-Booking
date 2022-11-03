@@ -10,7 +10,9 @@ class ReservationsController < ApplicationController
     end
   end
 
-  def create
+  def create    
+    response.set_header('Access-Control-Allow-Origin', '*')
+
     @reservation = Reservation.new(reservation_params)
 
     if @reservation.save
