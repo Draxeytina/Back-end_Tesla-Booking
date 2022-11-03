@@ -26,6 +26,8 @@ class CarsController < ApplicationController
   def create
     @car = Car.new(car_params)
 
+    response.set_header('Access-Control-Allow-Origin', '*')
+
     if @car.save
       render json: @car, status: :created
     else
@@ -34,6 +36,8 @@ class CarsController < ApplicationController
   end
 
   def destroy
+    response.set_header('Access-Control-Allow-Origin', '*')
+    
     @car = Car.find(params[:id])
     @car.destroy
 
