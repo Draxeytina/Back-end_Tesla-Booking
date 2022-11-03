@@ -4,6 +4,8 @@ class CarsController < ApplicationController
   def index
     @cars = Car.all
 
+    response.set_header('Access-Control-Allow-Origin', '*')
+
     respond_to do |format|
       format.html { render json: @cars }
       format.json { render json: @cars }
@@ -12,6 +14,8 @@ class CarsController < ApplicationController
 
   def show
     @car = Car.find(params[:id])
+
+    response.set_header('Access-Control-Allow-Origin', '*')
 
     respond_to do |format|
       format.html { render json: @car }

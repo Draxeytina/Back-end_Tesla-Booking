@@ -1,11 +1,10 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://tesla-booking.herokuapp.com/'
+    origins 'http://localhost:3001'
     resource '*',
              headers: :any,
              methods: %i[get post put patch delete options head],
-             credentials: true,
-             max_age: 10000
+             credentials: true
   end
 
   allow do
@@ -13,7 +12,6 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
     resource '*',
              headers: :any,
              methods: %i[get post put patch delete options head],
-             credentials: true,
-             max_age: 10000
+             credentials: true
   end
 end
