@@ -4,8 +4,6 @@ class CarsController < ApplicationController
   def index
     @cars = Car.all
 
-    response.set_header('Access-Control-Allow-Origin', '*')
-
     respond_to do |format|
       format.html { render json: @cars }
       format.json { render json: @cars }
@@ -14,8 +12,6 @@ class CarsController < ApplicationController
 
   def show
     @car = Car.find(params[:id])
-
-    response.set_header('Access-Control-Allow-Origin', '*')
 
     respond_to do |format|
       format.html { render json: @car }
@@ -26,8 +22,6 @@ class CarsController < ApplicationController
   def create
     @car = Car.new(car_params)
 
-    response.set_header('Access-Control-Allow-Origin', '*')
-
     if @car.save
       render json: @car, status: :created
     else
@@ -36,8 +30,6 @@ class CarsController < ApplicationController
   end
 
   def destroy
-    response.set_header('Access-Control-Allow-Origin', '*')
-
     @car = Car.find(params[:id])
     @car.destroy
 
