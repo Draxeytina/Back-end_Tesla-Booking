@@ -1,9 +1,6 @@
 class UsersController < ApplicationController
   def index
     @users = User.all
-
-    response.set_header('Access-Control-Allow-Origin', '*')
-
     respond_to do |format|
       format.html { render json: @users }
       format.json { render json: @users }
@@ -12,8 +9,6 @@ class UsersController < ApplicationController
 
   def reserved_cars
     @cars = current_user.reserved_cars
-
-    response.set_header('Access-Control-Allow-Origin', '*')
 
     respond_to do |format|
       format.html { render json: @cars }
