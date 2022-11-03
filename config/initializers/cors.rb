@@ -4,7 +4,8 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
     resource '*',
              headers: :any,
              methods: %i[get post put patch delete options head],
-             credentials: true
+             credentials: true,
+             max_age: 10000
   end
 
   allow do
@@ -12,6 +13,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
     resource '*',
              headers: :any,
              methods: %i[get post put patch delete options head],
-             credentials: true
+             credentials: true,
+             max_age: 10000
   end
 end
