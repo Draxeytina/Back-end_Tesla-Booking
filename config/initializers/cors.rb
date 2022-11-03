@@ -9,7 +9,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
   end
 
   allow do
-    origins 'https://secret-ridge-50120.herokuapp.com/'
+    origins 'https://tesla-booking.herokuapp.com/'
     resource '*',
              headers: :any,
              methods: %i[get post put patch delete options head],
