@@ -1,6 +1,8 @@
 class SessionsController < ApplicationController
   include CurrentUserConcern
   def create
+    response.set_header('Access-Control-Allow-Origin', '*')
+
     user = User
       .find_by(email: params['user']['email'])
       .try(:authenticate, params['user']['password'])
@@ -17,6 +19,8 @@ class SessionsController < ApplicationController
   end
 
   def logged_in
+    response.set_header('Access-Control-Allow-Origin', '*')
+
     if @current_user
       render json: {
         logged_in: true,
@@ -30,6 +34,8 @@ class SessionsController < ApplicationController
   end
 
   def logout
+    response.set_header('Access-Control-Allow-Origin', '*')
+
     reset_session
     render json: { status: 200, logged_out: true }
   end
