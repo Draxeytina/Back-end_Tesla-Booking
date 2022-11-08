@@ -1,6 +1,9 @@
 # Tesla booking
 This repo is the backend part of a car booking app called Tesla booking. One can book a car and show its deatail using this app.
 
+## Project front-end
+[Front-end](https://github.com/Draxeytina/Front-end_Tesla-Booking)
+
 ## :hammer_and_wrench: Built With: 
 - Ruby on Rails
 - React & Redux
@@ -19,9 +22,6 @@ This repo is the backend part of a car booking app called Tesla booking. One can
 
 We are a team of 5 members:
 @fibini	@franclobo	@Gopxfs	@Draxeytina	@waqaskanju
-  
-## Project front-end
-[Front-end](https://github.com/Draxeytina/Front-end_Tesla-Booking)
 
 ## Getting Started 
 - To get a local copy of this project clone this repository or download the Zip folder: 
