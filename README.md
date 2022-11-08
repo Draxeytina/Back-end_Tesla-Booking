@@ -1,5 +1,5 @@
 # Tesla booking
-This repo is the backend part of a car booking app called Tesla booking. One can book a car and show its deatail using this app.
+This application was made by creating our API, using Ruby on Rails, containing some Tesla models' info in our database. In the front end, made with React & Redux, the user is allowed to create an account and book any of the cars we have displayed. Admin users can add entirely new models by sending data to the API.
 
 ## Project front-end
 [Front-end](https://github.com/Draxeytina/Front-end_Tesla-Booking)
